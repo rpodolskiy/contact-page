@@ -117,7 +117,14 @@ export default {
     border: 0;
     border-radius: 10px;
     padding: 10px 20px;
-    margin-top: 20px;    
+    margin-top: 20px;
+    cursor: pointer;    
+  }
+
+  button:active {
+    background: #fff;
+    color: #007bff;
+    border: 1px solid #007bff;
   }
 
   .submit {
